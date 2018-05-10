@@ -1,0 +1,73 @@
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 0;
+}
+.avatar {
+    margin: 0 25px 0 50px;
+}
+.status {
+    border-right: 1px solid #e5e5e5;
+    width: 300px;
+    color: #667a90;
+    font: 20px 'Open Sans';
+}
+.status h4 {
+    margin: 0px;
+}
+.status p {
+    font: 13px 'Open Sans';
+    margin-top: 5px;
+}
+.status h4 img {
+    padding: 0 5px;
+}
+.stats {
+    display: inline;
+    color: #4d75a3;
+    width: 40%;
+    text-align: center;
+}
+.stats div ul {
+    display: flex;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 30px;
+}
+.stats div ul li {
+    display: inline-block;
+    width: 75px;
+}
+.stats1 {
+
+}
+.stats1 a {
+    color: #4d75a3;
+    font: 20px 'Open Sans';
+    text-decoration: none;
+}
+.stats2 {
+    font: 10px 'Open Sans';
+    color: #667a90;
+}
+.buttons {
+    margin-left: auto;
+}
+.buttons button {
+    border-radius: 5px;
+    border: 2px solid #4d75a3;
+    float: right;
+    height: 48px;
+    width: 185px;
+    clear: right;
+    font: 14px 'Open Sans';
+}
+.button1 {
+    background: #4d75a3;
+    color: white;
+    margin-bottom: 5px;
+}
+.button2 {
+    background: white;
+    color: #4d75a3;
+    margin-top: 5px;
+}

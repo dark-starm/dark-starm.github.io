@@ -1,0 +1,85 @@
+.follow {
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+.followName {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    padding: 0 0 0 20px;
+}
+.followCont {
+    height: 460px;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+.userFoll {
+    padding: 0 20px 0 20px;
+    margin: 0px 0px 25px 0px;
+}
+.userFoll a {
+    text-decoration: none;
+    color: #3f4f5f;
+}
+.userFoll li {
+    list-style-type: none;
+
+ }
+.userFoll li>div {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.userFoll li button {
+    height: 25px;
+    width: 50px;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #97a4b1;
+    color: #97a4b1;
+}
+.user_online {
+    position: absolute;
+    background: #00d905;
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
+    border: 3px solid white;
+    margin-top: -16px;
+    margin-left: 31px;
+}
+.userName ul{
+    padding: 0 0 0 15px;
+}
+.userName ul li {
+    list-style-type: none;
+}
+.userName1 {
+    font-size: 11pt;
+}
+.userName1 img {
+    padding: 0 0 0 5px;
+}
+.userName2 {
+    font-size: 8pt;
+    color: #97a4b1;
+}
+.follow-foot {
+    display: flex;
+    background: #ebf4fa;
+    height: 50px;
+    border-radius: 0px 0px 8px 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12pt;
+}
+.follow-foot a {
+    display: flex;
+    text-decoration: none;
+    color: #7595b9;
+}
+.follow-foot > a > img{
+    margin-left: 8px;
+    margin-bottom: 3px;
+}

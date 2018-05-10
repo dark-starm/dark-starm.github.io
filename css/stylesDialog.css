@@ -1,0 +1,264 @@
+.dialog {
+    display: grid;
+    grid-template-columns: 335px auto;
+    grid-template-rows: 100px 590px 120px;
+    background: white;
+    font-family: "Open Sans";
+}
+a {
+    text-decoration: none;
+}
+.a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.a > div {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #667a90;
+}
+.da-right {
+    margin-left: auto;
+}
+.da-right a {
+    padding-left: 15px;
+}
+.db-right a {
+    padding-left: 15px;
+}
+.b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.b > div {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    height: 99px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 0 8px 0 0;
+}
+.db-left {
+    display: flex;
+    align-items: center;
+}
+.db-left > ul {
+    padding-left: 10px;
+}
+.db-left > ul > li {
+    color: #8d8d8d;
+    font-size: 14px;
+}
+.db-left > ul > li > a {
+    color: #3f4f5f;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.db-left > ul > li > img {
+    padding-right: 5px;
+}
+.db-right {
+    margin-left: auto;
+}
+li {
+    list-style-type: none;
+}
+.c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-right: 1px solid #e5e5e5;
+}
+.user_online2 {
+    position: absolute;
+    background: #00d905;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    margin-top: -55px;
+    margin-left: 40px;
+}
+.c-user {
+    background: #ebf4fa;
+}
+.c > div {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.c > div > ul {
+    padding: 0 25px;
+    margin: 0;
+    width: 100%;
+}
+.users {
+    display: flex;
+    font-size: 12px;
+}
+.users > ul {
+    padding-left: 10px;
+}
+.users > ul > li > a {
+    font-size: 14px;
+    color: #3f4f5f;
+    font-weight: bolder;
+}
+.usersStat {
+    color: #667a90;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    background-color: #7595b9;
+    color: white;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 5px;
+}
+.box0 {
+    background-color: white;
+
+}
+.users-right {
+    margin-left: auto;
+    color: #b1b1b1;
+}
+.d {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.d > div {
+    margin-top: 50px;
+    display: flex;
+}
+.dial_body {
+    display: inline-flex;
+    flex-direction: column;
+    width: 98%;
+}
+.dial_body  div {
+    display: inline-flex;
+}
+
+.dial_body div > ul {
+    padding-left: 5px;
+}
+.d_photo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 10px 40px 15px;
+}
+.dmsg_in{
+    background: #f2f4f6;
+    color: #667a90;
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 10px 20px;
+}
+.dtime_in{
+    font-size: 10px;
+    color: #97a4b1;
+    margin-top: 8px;
+}
+.dmsg_out{
+    background: #ebf4fa;
+    color: #667a90;
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 10px 20px;
+
+}
+.dtime_out{
+    font-size: 10px;
+    color: #97a4b1;
+    margin-top: 8px;
+    justify-content: flex-end;
+}
+.timemsg {
+    display: flex;
+    justify-content: flex-end;
+}
+.outmsg {
+    justify-content: flex-end;
+}
+.imgpen {
+    margin-left: 3px;
+    height: 15px;
+    width: 15px;
+}
+.dial_scroll > img{
+    margin-top: 320px;
+}
+.e {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #f2f4f6;
+    border-top: 1px solid #e5e5e5;
+    border-radius: 0 0 8px 0;
+}
+.e-body {
+
+}
+.e-body>ul{
+    margin: 0;
+    padding: 25px 25px 10px 20px;
+}
+.e-body>ul>li {
+    display: flex;
+}
+.e-text {
+    width: 100%;
+}
+.e-text >input {
+    width: 98%;
+    height: 43px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+.e-body > ul > li > button {
+    background: #4d75a3;
+    margin-left: auto;
+    color: white;
+    height: 47px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+}
+.e-smile > input {
+    margin-top: 8px;
+    padding-right: 10px;
+}
+.smile1 {
+    border-right: 1px solid #e5e5e5;
+}
+.smile2 {
+    padding: 0 10px;
+}
+.e-attach {
+    margin-left: auto;
+    padding-right: 120px;
+    color: #2b587a;
+}

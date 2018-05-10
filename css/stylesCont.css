@@ -1,0 +1,93 @@
+/* Навигация по сайту*/
+.navig ul {
+    display: flex;
+    color: #97a4b1;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font: 14px 'Open Sans';
+}
+.navig ul li{
+    display: inline-block;
+    padding: 0px 22.5px;
+}
+.navig ul a {
+    color: #97a4b1;
+    text-decoration: none;
+}
+.navig ul a:hover{
+    color: #4d75a3;
+}
+/* Шапка*/
+#topbar {
+    display: flex;
+    height: 75px;
+    align-items: center;
+    font: 14px 'Open Sans';
+}
+.logo {
+    display: flex;
+    height: 75px;
+    width: 175px;
+    align-items: center;
+    border-right: 1px solid #41638a;
+}
+.logo a{
+    padding: 0px 50px 0px 25px;
+}
+.leftbar {
+    display: flex;
+}
+.notif1 {
+    display: flex;
+    position: absolute;
+    background: red;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: -12px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.notif1 > a {
+    color: white;
+}
+.leftbar > div{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #41638a;
+}
+.centerbar {
+    margin-left: auto;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    padding: 0 25px 0 0;
+}
+.centerbar div {
+    display: flex;
+    margin: 0 0 0 10px;
+}
+.centerbar div a {
+    text-decoration: none;
+    color: white;
+}
+.rightbar {
+    display: flex;
+}
+.rightbar div {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #41638a;
+}
