@@ -45,8 +45,10 @@ a {
     padding: 0 25px;
     height: 99px;
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.9;
     border-radius: 0 8px 0 0;
+    position: relative;
+    z-index: 2;
 }
 .db-left {
     display: flex;
@@ -175,6 +177,25 @@ li {
     font-size: 14px;
     border-radius: 16px;
     padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+}
+.dmsg_in:before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    bottom: 2px;
+    border: 10px solid transparent;
+    border-right: 10px solid #f2f4f6;
+    border-bottom: 10px solid #f2f4f6;
+}
+.dmsg_in:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: 3px;
+    border: 8px solid #fff;
+    border-radius: 20px;
 }
 .dtime_in{
     font-size: 10px;
@@ -187,7 +208,25 @@ li {
     font-size: 14px;
     border-radius: 16px;
     padding: 10px 20px;
-
+    position: relative;
+    z-index: 1;
+}
+.dmsg_out:before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    bottom: 2px;
+    border: 10px solid transparent;
+    border-right: 10px solid #f2f4f6;
+    border-bottom: 10px solid #f2f4f6;
+}
+.dmsg_out:after {
+    content: '';
+    position: absolute;
+    right: -15px;
+    bottom: 3px;
+    border: 8px solid #fff;
+    border-radius: 20px;
 }
 .dtime_out{
     font-size: 10px;
