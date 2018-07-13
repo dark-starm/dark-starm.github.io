@@ -1,5 +1,4 @@
 .follow {
-    font-family: "Open Sans";
     font-size: 14pt;
 }
 .followName {
@@ -11,11 +10,11 @@
 .followCont {
     height: 460px;
     margin: 0;
-    padding: 15px 0 0 0;
+    padding: 15px 0 0;
 }
 .userFoll {
     padding: 0 20px 0 20px;
-    margin: 0px 0px 25px 0px;
+    margin: 0 0 25px 0;
 }
 .userFoll a {
     text-decoration: none;
@@ -49,19 +48,20 @@
     margin-top: -16px;
     margin-left: 31px;
 }
-.userName ul{
+.usersName ul{
     padding: 0 0 0 15px;
 }
-.userName ul li {
+.usersName ul li {
     list-style-type: none;
 }
-.userName1 {
+.userName:first-child {
     font-size: 11pt;
+    font-weight: bold;
 }
-.userName1 img {
+.userName:first-child img {
     padding: 0 0 0 5px;
 }
-.userName2 {
+.userName:last-child {
     font-size: 8pt;
     color: #97a4b1;
 }
@@ -69,7 +69,7 @@
     display: flex;
     background: #ebf4fa;
     height: 50px;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0 0 8px 8px;
     align-items: center;
     justify-content: center;
     font-size: 12pt;
