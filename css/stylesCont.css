@@ -7,11 +7,11 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    font: 14px 'Open Sans';
+    font-size: 14px;
 }
 .navig ul li{
     display: inline-block;
-    padding: 0px 22.5px;
+    padding: 0 22.5px;
 }
 .navig ul a {
     color: #97a4b1;
@@ -19,6 +19,11 @@
 }
 .navig ul a:hover{
     color: #4d75a3;
+}
+.navigActiv{
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #4d75a3;
 }
 /* Шапка*/
 #topbar {
@@ -35,7 +40,7 @@
     border-right: 1px solid #41638a;
 }
 .logo a{
-    padding: 0px 50px 0px 25px;
+    padding: 0 50px 0 25px;
 }
 .leftbar {
     display: flex;
