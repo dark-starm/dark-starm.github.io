@@ -3,7 +3,6 @@
     grid-template-columns: 335px auto;
     grid-template-rows: 100px 590px 120px;
     background: white;
-    font-family: "Open Sans";
 }
 a {
     text-decoration: none;
@@ -118,9 +117,18 @@ li {
     font-weight: bolder;
 }
 .usersStat {
+    display: flex;
     color: #667a90;
     justify-content: center;
     align-items: center;
+}
+.usersStat>img{
+    margin: 0 4px;
+}
+.usersStat span {
+    background-color: #ebf4fa;
+    border-radius: 0 5px 5px 0;
+    padding: 2px 8px;
 }
 .box {
     display: flex;
@@ -134,10 +142,6 @@ li {
     font-weight: bold;
     margin-left: auto;
     margin-top: 5px;
-}
-.box0 {
-    background-color: white;
-
 }
 .users-right {
     margin-left: auto;
@@ -180,6 +184,10 @@ li {
     position: relative;
     z-index: 1;
 }
+.dmsg_in img{
+    border-radius: 5px;
+    margin: 0 4px;
+}
 .dmsg_in:before {
     content: '';
     position: absolute;
@@ -210,6 +218,7 @@ li {
     padding: 10px 20px;
     position: relative;
     z-index: 1;
+    width: 330px;
 }
 .dmsg_out:before {
     content: '';
@@ -258,15 +267,19 @@ li {
     border-top: 1px solid #e5e5e5;
     border-radius: 0 0 8px 0;
 }
-.e-body {
-
-}
-.e-body>ul{
-    margin: 0;
-    padding: 25px 25px 10px 20px;
-}
-.e-body>ul>li {
+.e-body{
     display: flex;
+    margin: 0;
+    padding: 25px 25px 4px 20px;
+}
+.e-body input[type=submit]{
+    font-size: 14px;
+    font-weight: bold;
+}
+.e-foot{
+    display: flex;
+    margin: 0;
+    padding: 0 25px 10px 20px;
 }
 .e-text {
     width: 100%;
@@ -277,7 +290,7 @@ li {
     border: 1px solid #e5e5e5;
     border-radius: 8px;
 }
-.e-body > ul > li > button {
+.e-send {
     background: #4d75a3;
     margin-left: auto;
     color: white;
@@ -286,18 +299,26 @@ li {
     border-radius: 5px;
     border: none;
 }
-.e-smile > input {
-    margin-top: 8px;
-    padding-right: 10px;
+.smile:first-child {
+    margin-right: 20px;
 }
-.smile1 {
-    border-right: 1px solid #e5e5e5;
-}
-.smile2 {
-    padding: 0 10px;
+.smile {
+    margin: 8px 4px 0;
+    border: 0;
+    padding: 0;
+    background: #f2f4f6;
+    border-radius: 10px;
+    height: 19px;
 }
 .e-attach {
     margin-left: auto;
+    margin-top: 8px;
     padding-right: 120px;
     color: #2b587a;
+    font-size: 14px;
+}
+.e-attach>button{
+    border: 0;
+    padding: 0;
+    background: #f2f4f6;
 }
