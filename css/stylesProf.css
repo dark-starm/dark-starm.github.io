@@ -10,13 +10,13 @@
     border-right: 1px solid #e5e5e5;
     width: 300px;
     color: #667a90;
-    font: 20px 'Open Sans';
+    font-size: 20px;
 }
 .status h4 {
-    margin: 0px;
+    margin: 0;
 }
 .status p {
-    font: 13px 'Open Sans';
+    font-size: 13px;
     margin-top: 5px;
 }
 .status h4 img {
@@ -28,25 +28,25 @@
     width: 40%;
     text-align: center;
 }
-.stats div ul {
+.statsUser {
     display: flex;
-    margin: 5px 0px;
-    padding: 0px 0px 0px 30px;
+    justify-content: space-around;
+    margin: 5px 0;
+    padding: 0 30px;
 }
-.stats div ul li {
+.statsUser li {
     display: inline-block;
     width: 75px;
 }
-.stats1 {
 
-}
-.stats1 a {
+.statsUser:first-child a {
     color: #4d75a3;
-    font: 20px 'Open Sans';
+    font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
 }
-.stats2 {
-    font: 10px 'Open Sans';
+.statsUser:last-child {
+    font-size: 12px;
     color: #667a90;
 }
 .buttons {
@@ -59,14 +59,15 @@
     height: 48px;
     width: 185px;
     clear: right;
-    font: 14px 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
 }
-.button1 {
+.buttonSend {
     background: #4d75a3;
     color: white;
     margin-bottom: 5px;
 }
-.button2 {
+.buttonAdd {
     background: white;
     color: #4d75a3;
     margin-top: 5px;
